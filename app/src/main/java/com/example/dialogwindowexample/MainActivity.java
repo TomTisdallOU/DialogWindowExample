@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
-                builder.setTitle("Enter phone number of player to invite");
+                builder.setTitle("Please enter phone number of player to invite");
 
 // Set up the input
                 final EditText input = new EditText(MainActivity.this);
